@@ -25,3 +25,24 @@ a:hover, a:active {
 	color: #ffffff;
 	text-decoration: none;
 }
+
+
+#box1 {
+	float: left;
+	width: 75%;
+}
+
+#box2 {
+	float: right;
+	width: 25%;
+}
+
+#box_left {
+	float: left;
+	width: 410px;
+}
+
+#box_right {
+	float: right;
+	width: 450px;
+}
