@@ -39,10 +39,10 @@ a:hover, a:active {
 
 #box_left {
 	float: left;
-	width: 410px;
+	width: 50%;
 }
 
 #box_right {
 	float: right;
-	width: 450px;
+	width: 50%;
 }
