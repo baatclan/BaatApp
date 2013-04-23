@@ -1,6 +1,6 @@
 body {
 	font-family: 'Helvetica Neue';
-	color: #ffffff;
+	color: #000000;
 	font-size: 18px;
 }
 
@@ -18,6 +18,17 @@ html{
 }
 
 .ui-page { -webkit-backface-visibility: hidden; }
+
+div.transbox
+  {
+  width:1024px;
+  height:768px;
+  margin:30px 50px;
+  background-color:#ffffff;
+  border:0px solid black;
+  opacity:0.8;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  }
 
 a:link, a:visited {
 	font-weight: normal;
