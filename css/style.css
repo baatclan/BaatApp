@@ -27,6 +27,13 @@ div.transbox
   margin-left: auto ;
   margin-right: auto ;
   }
+  
+  h1.welkom {
+	color: #000;
+	background:rgba(255,255,255,0.5);
+	padding:5px;
+	display:block;
+  }
 
 a:link, a:visited {
 	font-weight: normal;
