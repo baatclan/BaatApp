@@ -22,12 +22,14 @@ html{
 div.transbox
   {
   width:1024px;
-  height:768px;
+  height:500px;
   margin:30px 50px;
   background-color:#ffffff;
   border:0px solid black;
   opacity:0.8;
   filter:alpha(opacity=60); /* For IE8 and earlier */
+  margin-left: auto ;
+  margin-right: auto ;
   }
 
 a:link, a:visited {
@@ -47,7 +49,7 @@ a:hover, a:active {
 
 #box1 {
 	float: left;
-	width: 66%;
+	width: 100%;
 }
 
 #box2 {
@@ -57,12 +59,13 @@ a:hover, a:active {
 
 #box_left {
 	float: left;
-	width: 50%;
+	width: 25%;
 }
 
 #box_right {
 	float: right;
-	width: 50%;
+	width: 25%;
 }
 
 h1 {text-align:center}
+
